@@ -1,5 +1,5 @@
-function Login(username:string):boolean{
-    return true;
+function Login(username: string): boolean {
+	return true;
 }
-const details=Login("Rais")
-console.log("Details are :",details);
+const details = Login("Rais");
+console.log("Details are :" + details);

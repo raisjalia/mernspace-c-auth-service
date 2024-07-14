@@ -1,15 +1,18 @@
 {
-  "name": "auth-service",
-  "version": "1.0.0",
-  "description": "A user management service",
-  "main": "index.js",
-  "scripts": {
-    "dev": "node src/server.js"
-  },
-  "author": "Rais J",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/node": "^20.14.10",
-    "typescript": "^5.5.3"
-  }
+	"name": "auth-service",
+	"version": "1.0.0",
+	"description": "A user management service",
+	"main": "index.js",
+	"scripts": {
+		"dev": "node src/server.js",
+		"format:check": "prettier . --check",
+		"format:fix": "prettier . --write"
+	},
+	"author": "Rais J",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^20.14.10",
+		"prettier": "3.3.3",
+		"typescript": "^5.5.3"
+	}
 }
