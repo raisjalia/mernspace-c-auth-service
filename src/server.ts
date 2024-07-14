@@ -1,5 +1,3 @@
-function Login(username: string): boolean {
-	return true;
-}
-const details = Login("Rais");
-console.log("Details are :" + details);
+import { Config } from "./config";
+console.log("PORT:", Config.PORT);
+console.log("PORT:", Config.NODE_ENV);
